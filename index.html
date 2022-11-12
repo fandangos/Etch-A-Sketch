@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="javascript.js" defer></script>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="header" id="header">Etch-A-Sketch</div>
+        <div class="content" id="content">
+            <div class="menu" id="menu">
+                <div class="buttons-area" id="buttons-area">
+                    <div class="menu-text" id="menu-text"><u>MENU</u></div>
+                    <button class="buttons" id="button1">Black</button>
+                    <button class="buttons" id="button2">Rainbow</button>
+                    <button class="buttons" id="button3">Reset</button>
+                    <input type="range" min="2" max="96" value="16" class="gridSlider" id="gridSlider">
+                    <div class="sliderValue" id="sliderValue">16 x 16</div>
+                </div>
+            </div>
+            <div class="app-container" id="app-container">
+                <div class="app" id="app"></div>
+            </div>
+        </div>
+        <div class="footer" id="footer">
+            <div class="footerText" id="footerText">By Vitor Dall'Acqua</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
